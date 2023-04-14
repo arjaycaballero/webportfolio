@@ -1,0 +1,47 @@
+/* CSS RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+}
+
+/*FONT*/
+/* font-family: 'Playfair Display', serif; */
+/* #fefafa */
+
+/* NAVBAR SECTION */
+
+
+.navbar-section {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 100px;
+	padding-top: 25px;
+}
+
+.navbar-section > ul {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	margin-bottom: 0;
+	gap: 20px;
+	font-size: 1.4rem;
+
+}
+
+.navbar-section img {
+	width: 270px;
+ }
+
+ul a {
+	color: black;
+	font-family: 'Playfair Display', serif;
+}
+
+/* NAVBAR SECTION END */
+
