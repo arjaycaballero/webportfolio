@@ -11,94 +11,177 @@
 		<link rel="stylesheet" type="text/css" href="./index.css">
 		<title>Home - Personal Portfolio</title>
 		<!-- BOOTSTRAP CSS LINK -->
+		<!-- BOOTSTRAP ICON CDN -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 	</head>
 	<body>
 		<!-- NAVBAR SECTION START -->
-		
-		<nav class="navbar-section">
-			<img src="Image/arjaylogo.png">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Tools</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-		
-		<!-- NAVBAR SECTION END -->
-		<div class="arjay">
-			<div class="arjay-h1">
-				<div>
-					<h1 class="arjay">I'm Full Stack Web Developer Arjay Caballero</h1>
+		<div class="navbar-body">
+			<nav class="navbar-section">
+				<!-- LARGE VIEW MENU -->
+				<img src="Image/arjaylogo.png">
+				<ul>
+					<li><a href="#AboutMe">About</a></li>
+					<li><a href="#Projects">Projects</a></li>
+					<li><a href="#Tools">Tools</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+				<button class="custom-button">Hire Me</button>
+				<label class="menu-label" for="menu-btn">
+					<div class="menu">
+						<i class="bi bi-justify"></i>
+					</div>
+				</label>
+				<input type="checkbox" hidden id="menu-btn">
+				<!-- MOBILE RESPONSIVE MENU -->
+				<div class="side-menu">
+					<img src="Image/arjaylogo.png">
+					<ul>
+						<li><a href="#AboutMe">About</a></li>
+						<li><a href="#Projects">Projects</a></li>
+						<li><a href="#Tools">Tools</a></li>
+						<li><a href="#Contact">Contact</a></li>
+					</ul>
 				</div>
-				<div>
-					<p>"As an aspiring web developer, I am excited to embark on a journey of creating dynamic and engaging online experiences through my programming skills."</p>
+
+			</nav>
+			<!-- NAVBAR SECTION END -->
+			<div class="myprofile">
+				<div class="myprofile-body">
+					<h1 class="arjay">I'm <span class="myname">Arjay Caballero</span> </h1>
+					<h2>Full Stack Web Developer</h2>
+					<p>As an aspiring web developer, I am excited to embark on a journey of creating dynamic and engaging online experiences through my programming skills.</p>
 				</div>
-				
-			</div>
-			<div class="arjay.image">
-				<img src="Image/arjayavatar.png">
+				<div class="arjay-image">
+					<img src="Image/arjayavatar.png">
+				</div>
 			</div>
 		</div>
 		<!-- PARAGRAPH NAVBAR SECTION END -->
 		
-		
 		<!-- ABOUT ME SECTION START -->
 		<section id="AboutMe">
-			<div>
-				<h1>About Me</h1>
-				<p>Hello there! My name is Arjay Caballero, and I am an aspiring web developer with a passion for creating beautiful, functional websites. I'm constantly pushing myself to learn new technologies and techniques, and I'm always looking for opportunities to put my skills to the test.</p>
+			<h1>About Me</h1>
+			<div class="line">
+			</div>
+			
+			<div class="aboutme-body">
+				<div class="aboutme-p">
+					<h2>Developing With a Passion While Exploring The World.</h2>
+					<div class="line short"></div>
+					<p>Hi there! I'm a software developer who's passionate about exploring the world, both in the physical sense and the digital realm. My love for travel has taken me to all sorts of places, from bustling cities to remote corners of the world, and I'm always eager to discover new cultures and experiences.
+					But my sense of adventure doesn't stop there. As a developer, I'm constantly exploring the latest technologies and tools, always on the lookout for new ways to solve problems and build innovative solutions. I thrive on the challenge of learning new programming languages, frameworks, and libraries, and I'm always eager to share my knowledge and insights with others.</p>
+					<p>Whether I'm coding up a storm at my desk or out exploring the world, I'm always driven by a sense of curiosity and a desire to push boundaries. I believe that the world is full of exciting opportunities, and I'm eager to explore them all. So if you're looking for a developer who's always ready to take on new challenges and explore new horizons, look no further than me!</p>
+					<div class="flex-mobile">
+						<a class="custom-button" href="#Contact">Contact Me</a>
+					</div>
+				</div>
+				<div class="aboutme-image">
+					<div class="aboutme-image-container">
+						<div class="aboutme-image-back">
+						</div>
+						<img src="Image/section-1-bg1.jpg">
+						
+					</div>
+				</div>
 			</div>
 		</section>
 		<!-- ABOUT ME SECTION END -->
 		<!-- MY PROJECTS SECTION START -->
-		<section>
+		<section id="Projects">
 			<h1>My Projects</h1>
-			<div>Under Construction</div>
-			<div>Under Construction</div>
-			<div>Under Construction</div>
+			<div class="line"></div>
+			<div class="project-body">
+				<div class="project-card">
+					<img src="Image/underconstruction.jpg">
+					<p>Under Construction</p>
+				</div>
+				<div class="project-card">
+					<img src="Image/underconstruction.jpg">
+					<p>Under Construction</p>
+				</div>
+				<div class="project-card">
+					<img src="Image/underconstruction.jpg">
+					<p>Under Construction</p>
+				</div>
+			</div>
 		</section>
 		<!-- MY PROJECTS SECTION END-->
+		<!-- RELAXING PART SECTION -->
+		<section id="chill">
+			
+		</section>
+		<!-- RELAXING PART END-->
 		<!-- TOOLS SECTIONS START -->
-		<section>
-			<div>HTML</div>
-			<div>CSS</div>
-			<div>BOOTSTRAP</div>
+		<section id="Tools">
+			<h1>Tools</h1>
+			<div class="line"></div>
+			<div class="tools-body">
+				<div class="tools-card">
+					<img src="Image/html.png">
+					<p>HTML</p>
+					<div class="loading-container">
+						<div class="loading-bar html"></div>
+					</div>
+				</div>
+				<div class="tools-card">
+					<img src="Image/css.png">
+					<p>CSS</p>
+					<div class="loading-container">
+						<div class="loading-bar css"></div>
+					</div>
+				</div>
+				<div class="tools-card">
+					<img src="Image/bootstrap.png">
+					<p>BOOTSTRAP</p>
+					<div class="loading-container">
+						<div class="loading-bar bootstrap"></div>
+					</div>
+				</div>
+			</div>
+			
 		</section>
 		<!-- TOOLS SECTIONS END -->
 		<!-- CONTACT ME SECTION START -->
-		<section>
+		<section id="Contact">
 			<div>
-				<h1>Get In Touch</h1>
-				<form>
-					<div>
-						<label for="name">Name</label>
-						<input type="text" class="form-control" id="name" placeholder="Enter your name">
-					</div>
-					<div>
-						<label for="email">Email address</label>
-						<input type="email" class="form-control" id="email" placeholder="Enter your email">
-					</div>
-					<div>
-						<label for="message">Message</label>
-						<textarea class="form-control" id="message" rows="3"></textarea>
-					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
+				<h1>Contact</h1>
+				<div class="line"></div>
+				<div class="contact-card-container">
+					<div class="contact-card"><i class="bi bi-phone-fill"></i></div>
+					<div class="contact-card"><i class="bi bi-house-fill"></i></div>
+					<div class="contact-card"><i class="bi bi-mailbox2"></i></div>
+				</div>
+				<div class="contact-form">
+					<h2>Get In Touch</h2>
+					<div class="line short"></div>
+					<form>
+						<div>
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Enter your name">
+						</div>
+						<div>
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="Enter your email">
+						</div>
+						<div>
+							<label for="message">Message</label>
+							<textarea class="form-control" id="message" rows="3"></textarea>
+						</div>
+						<button class="custom-button" type="submit">Submit</button>
+					</form>
+				</div>
 			</div>
 			<!-- CONTACT ME SECTION END-->
 			<!-- FOOTER SECTION START -->
-			<div>
-				<span>Facebook Logo</span>
-				<span>Twitter Logo</span>
-				<span>Instagram Logo</span>
-				<span>Linkedin Logo</span>
+			<div class="social-media">
+				<span><i class="bi bi-facebook"></i></span>
+				<span><i class="bi bi-linkedin"></i></span>
 			</div>
-			<div>
-				<span>Copyright © 2023</span>
-				<span>Personal Portfolio</span>
+			<div class="footer-description">
+				<img src="Image/arjaylogo.png">
+				<span>Copyright © 2023 | Personal Portfolio</span>
 			</div>
 		</section>
 		<!-- FOOTER SECTION START -->
